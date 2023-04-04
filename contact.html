@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog</title>
+    <title>Contact - Personal Blog</title>
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-    
+    <!-- header section start from here -->
+    <header>
+        <div class="container">
+            <div class="header-box">
+                <div class="site-logo"><a href="index.html"><img src="img/NAM-Blog-Logo.webp" alt="NAM Blog"></a></div>
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end here -->
+
+    <main>
+        <section class="featured-post-sec">
+            <div class="contact-form">
+                <h1 class="section-title">Contact Us</h1>
+                <form action="mail.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="8"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="copyright">Copyright © 2023 NAM Blog. All rights reserved. Website by Noore Alam Mahin.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
