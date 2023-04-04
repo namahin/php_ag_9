@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1260px;
+    margin: auto;
+    padding: 0 15px;
+}
