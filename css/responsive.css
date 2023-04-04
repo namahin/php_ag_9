@@ -1,0 +1,112 @@
+@media (max-width: 1024px) {
+    .post-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .post-grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-form {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .post-grid-sidebar .sidebar {
+        margin-left: 30px;
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 650px) {
+    .post-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .post-grid-sidebar {
+        flex-direction: column;
+    }
+
+    .post-grid-sidebar .sidebar {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .featured-post-sec,
+    .single-post-sec {
+        padding-top: 60px;
+    }
+
+    .post-area h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .post-grid {
+        gap: 15px;
+    }
+
+    .contact-form {
+        padding: 0 15px;
+    }
+
+    .social-share {
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .social-share li {
+        font-size: 16px;
+    }
+
+    .social-share li:first-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .post-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .header-menu nav ul {
+        gap: 15px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .featured-post-sec,
+    .single-post-sec {
+        padding-top: 50px;
+    }
+
+    .site-logo {
+        width: 120px;
+    }
+
+    header {
+        height: 65px;
+    }
+
+    main {
+        padding-top: 65px;
+    }
+}
